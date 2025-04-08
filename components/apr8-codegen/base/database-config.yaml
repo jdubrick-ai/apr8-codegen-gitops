@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apr8-codegen-database-config
+data:
+  VECTORDB_HOST: "apr8-codegen-database"
+  VECTORDB_PORT: ""
